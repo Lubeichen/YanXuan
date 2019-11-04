@@ -1,0 +1,68 @@
+.box{
+    width: 100%;
+    height: auto;
+    font-size: 0.24rem;
+    .top{
+        width: 100%;
+        height: 0.84rem;
+        line-height: 0.84rem;
+        border-bottom: 1px solid #e9e9e9;
+        span{
+            margin-left: 0.2rem;
+        }
+        a{
+            margin-left: 1.5rem;
+        }
+    }
+    .cut_list{
+        width: 100%;
+        height: 2.58rem;
+        border-bottom: 1px solid #e9e9e9;
+        position: relative;
+        .cut_list_box{
+            width: 5rem;
+            height: 1.8rem;
+            margin: 0 auto;
+            margin-top: 0.35rem;
+            position: absolute;
+            margin-left: 0.15rem;
+        }
+        .cut_img{
+            width: 1.8rem;
+            height: 1.8rem;
+            float: left;
+            img{
+                width: 1.8rem;
+                height: 1.8rem;
+            }
+        }
+        .cut_right{
+            width: 3rem;
+            height: 1.8rem;
+            float: right;
+            p{
+                font-size: 0.2rem;
+                color: #464646;
+            }
+            .p{
+                font-size: 0.16rem;
+                color: #bdbdbd;
+                margin-top: 0.16rem;
+            }
+            .cut_zhong{
+                width: 3rem;
+                height: 0.8rem;
+                margin-top: 0.2rem;
+                display: flex;
+                p{
+                    width: 1.4rem;
+                    text-align: center;
+                    border-right: 1px solid #efefef;
+                }
+                span{
+                    display: block;
+                }
+            }
+        }
+    }
+}

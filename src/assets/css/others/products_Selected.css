@@ -1,0 +1,71 @@
+.Selected {
+  width: 100%;
+  height: auto;
+  margin-top: 0.22rem;
+}
+
+.Selected .p {
+  width: 100%;
+  height: 0.64rem;
+  line-height: 0.64rem;
+  margin: 0 auto;
+  font-size: 0.2rem;
+  border-bottom: 1px solid #f2f2f2;
+  background: white;
+}
+
+.Selected .p span {
+  float: left;
+  margin-left: 2.1rem;
+}
+
+.Selected .p img {
+  width: 0.15rem;
+  height: 0.15rem;
+  margin-left: 0.09rem;
+  float: left;
+  margin-top: 0.24rem;
+}
+
+.Selected .Selected_box {
+  width: 100%;
+  height: 3.84rem;
+  background: white;
+}
+
+.Selected .Selected_box ul {
+  width: 22.4rem;
+  list-style: none;
+  display: flex;
+}
+
+.Selected .Selected_box ul li {
+  width: 4.48rem;
+  height: 3.84rem;
+  margin-left: 0.1rem;
+}
+
+.Selected .Selected_box ul li .Selected_img {
+  width: 4.48rem;
+  height: 2.88rem;
+}
+
+.Selected .Selected_box ul li .Selected_img img {
+  width: 4.48rem;
+  height: 2.88rem;
+}
+
+.Selected .Selected_box ul li p {
+  font-size: 0.2rem;
+  color: #4c4c4c;
+  margin-left: 0.22rem;
+}
+
+.Selected .Selected_box ul li .Selected_p {
+  font-size: 0.16rem;
+  width: 3.42rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #c4c4c4;
+}

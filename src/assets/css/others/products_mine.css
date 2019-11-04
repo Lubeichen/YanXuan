@@ -1,0 +1,139 @@
+.box {
+  width: 100%;
+  height: auto;
+}
+
+.box .mine_me {
+  width: 100%;
+  height: 2.2rem;
+  background: #caba98;
+  position: relative;
+}
+
+.box .mine_me .mine_me_z {
+  width: 2.2rem;
+  height: 1.12rem;
+  margin-top: 0.56rem;
+  margin-left: 0.15rem;
+  position: absolute;
+}
+
+.box .mine_me .mine_me_z .p {
+  width: 1.1rem;
+  height: 1.1rem;
+  background: white;
+  border-radius: 50%;
+  text-align: center;
+  float: left;
+}
+
+.box .mine_me .mine_me_z .p .el-icon-service {
+  font-size: 0.7rem;
+  margin-top: 0.2rem;
+}
+
+.box .mine_me .mine_me_z h4 {
+  float: right;
+  font-size: 0.2rem;
+  margin-top: 0.18rem;
+  color: white;
+}
+
+.box .mine_me .mine_me_z h4 span {
+  display: block;
+  width: 0.8rem;
+  height: 0.25rem;
+  background: #b3a078;
+  color: white;
+  line-height: 0.25rem;
+  font-size: 0.12rem;
+  margin-top: 0.07rem;
+  padding-left: 0.06rem;
+  border-radius: 0.06rem;
+}
+
+.box .mine_nice {
+  width: 100%;
+  height: 0.58rem;
+  padding-left: 0.18rem;
+  font-size: 0.12rem;
+  line-height: 0.58rem;
+  color: #d00000;
+  background: white;
+}
+
+.box .mine_my {
+  width: 100%;
+  height: 0.7rem;
+  border-bottom: 1px solid #e9e9e9;
+  background: white;
+  margin-top: 0.12rem;
+  padding-left: 0.22rem;
+  font-size: 0.12rem;
+  line-height: 0.7rem;
+}
+
+.box .mine_my .el-icon-document {
+  font-size: 0.3rem;
+  color: #fbe4c0;
+  margin-top: 0.1rem;
+}
+
+.box .mine_my span {
+  margin-left: 3.84rem;
+}
+
+.box .mine_si {
+  width: 100%;
+  height: 0.99rem;
+  background: white;
+}
+
+.box .mine_si ul {
+  display: flex;
+  list-style: none;
+}
+
+.box .mine_si ul li {
+  width: 25%;
+  text-align: center;
+}
+
+.box .mine_si ul li i {
+  font-size: 0.4rem;
+  margin-top: 0.15rem;
+  color: #a3a3a3;
+}
+
+.box .mine_si ul li span {
+  display: block;
+  font-size: 0.18rem;
+  color: #9f9f9f;
+}
+
+.box .mine_wu {
+  width: 100%;
+  height: 1.92rem;
+  background: white;
+  margin-top: 0.15rem;
+}
+
+.box .mine_wu ul {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.box .mine_wu ul li {
+  width: 33%;
+  margin-top: 0.2rem;
+}
+
+.box .mine_wu ul li .van-icon {
+  font-size: 0.35rem;
+}
+
+.box .mine_wu ul li span {
+  display: block;
+  font-size: 0.12rem;
+}

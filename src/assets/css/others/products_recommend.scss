@@ -1,0 +1,57 @@
+.recommend{
+    width: 100%;
+    height: auto;
+    background: white;
+    margin-top: 0.22rem;
+    .p{
+          width: 100%;
+          height: 0.64rem;
+          line-height: 0.64rem;
+          margin: 0 auto;
+          font-size: 0.2rem;
+          border-bottom: 1px solid #f2f2f2;
+          background: white;
+          span{
+              float: left;
+              margin-left: 2.1rem
+          }
+          img{
+              width: 0.15rem;
+              height: 0.15rem;
+              margin-left: 0.09rem;
+              float: left;
+              margin-top: 0.24rem;
+          }
+      }
+      ul{
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        // justify-content: space-around;
+        li{
+          width: 50%;
+          .recommend_clack{
+            width: 2.4rem;
+            height: 3.66rem;
+            // background: darkcyan;
+          }
+          .recommend_img{
+            width: 2.4rem;
+            height: 2.6rem;
+            // background: darkcyan;
+            img{
+              width: 2.4rem;
+              height: 2.6rem;
+            }
+          }
+          p{
+            font-size: 0.2rem;
+          }
+          .p1{
+            font-size: 0.16rem;
+            color: red;
+            margin-top: 0.15rem;
+          }
+        }
+      }
+  }

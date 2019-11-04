@@ -1,0 +1,771 @@
+.nav {
+  width: 100%;
+  height: 1.45rem;
+  margin-top: -0.3rem;
+  background: white;
+  border-top-left-radius: 0.4rem;
+  border-top-right-radius: 0.4rem;
+}
+
+.nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.nav ul li {
+  text-align: center;
+  font-size: 0.2rem;
+}
+
+.nav ul li img {
+  width: 0.6rem;
+  height: 0.6rem;
+  margin-top: 0.25rem;
+}
+
+.nav ul li p {
+  display: block;
+  margin-top: 0.1rem;
+}
+
+.Bargain {
+  width: 100%;
+  height: auto;
+  margin-top: 0.22rem;
+}
+
+.Bargain .p {
+  width: 100%;
+  height: 0.64rem;
+  line-height: 0.64rem;
+  margin: 0 auto;
+  font-size: 0.2rem;
+  border-bottom: 1px solid #f2f2f2;
+  background: white;
+}
+
+.Bargain .p span {
+  float: left;
+  margin-left: 2.1rem;
+}
+
+.Bargain .p img {
+  width: 0.15rem;
+  height: 0.15rem;
+  margin-left: 0.09rem;
+  float: left;
+  margin-top: 0.24rem;
+}
+
+.Bargain .Bargain_bed {
+  width: 100%;
+  height: 1.82rem;
+  background: white;
+  border-bottom: 1px solid ghostwhite;
+  position: relative;
+}
+
+.Bargain .Bargain_bed .Bargain_bed_box {
+  width: 4.75rem;
+  height: 1.6rem;
+  position: absolute;
+  margin-top: 0.1rem;
+  margin-left: 0.1rem;
+}
+
+.Bargain .Bargain_bed .Bargain_bed_box .Bargain_bed_box_img {
+  width: 1.6rem;
+  height: 1.6rem;
+  float: left;
+}
+
+.Bargain .Bargain_bed .Bargain_bed_box .Bargain_bed_box_img img {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+.Bargain .Bargain_bed .Bargain_bed_box_right {
+  width: 2.96rem;
+  height: 1.6rem;
+  float: right;
+}
+
+.Bargain .Bargain_bed .Bargain_bed_box_right p {
+  widows: 100%;
+  font-size: 0.2rem;
+  color: #5f5f5f;
+}
+
+.Bargain .Bargain_bed .Bargain_bed_box_right p span {
+  font-size: 0.14rem;
+  color: #b2b2b2;
+}
+
+.Bargain .Bargain_bed .Bargain_bed_box_right > div {
+  width: 100%;
+  height: 0.45rem;
+  margin-top: 0.52rem;
+  display: flex;
+  font-size: 0.16rem;
+}
+
+.Bargain .Bargain_bed .Bargain_bed_box_right > div span {
+  display: block;
+  text-align: center;
+  margin-left: 0.3rem;
+}
+
+.Bargain .Bargain_bed .Bargain_bed_box_right > div span p {
+  color: red;
+}
+
+.Bargain .Bargain_bed .Bargain_bed_box_right > div a {
+  display: block;
+  margin-top: -0.1rem;
+}
+
+.Selected {
+  width: 100%;
+  height: auto;
+  margin-top: 0.22rem;
+}
+
+.Selected .p {
+  width: 100%;
+  height: 0.64rem;
+  line-height: 0.64rem;
+  margin: 0 auto;
+  font-size: 0.2rem;
+  border-bottom: 1px solid #f2f2f2;
+  background: white;
+}
+
+.Selected .p span {
+  float: left;
+  margin-left: 2.1rem;
+}
+
+.Selected .p img {
+  width: 0.15rem;
+  height: 0.15rem;
+  margin-left: 0.09rem;
+  float: left;
+  margin-top: 0.24rem;
+}
+
+.Selected .Selected_box {
+  width: 100%;
+  height: 3.84rem;
+  background: white;
+}
+
+.Selected .Selected_box ul {
+  width: 22.4rem;
+  list-style: none;
+  display: flex;
+}
+
+.Selected .Selected_box ul li {
+  width: 4.48rem;
+  height: 3.84rem;
+  margin-left: 0.1rem;
+}
+
+.Selected .Selected_box ul li .Selected_img {
+  width: 4.48rem;
+  height: 2.88rem;
+}
+
+.Selected .Selected_box ul li .Selected_img img {
+  width: 4.48rem;
+  height: 2.88rem;
+}
+
+.Selected .Selected_box ul li p {
+  font-size: 0.2rem;
+  color: #4c4c4c;
+  margin-left: 0.22rem;
+}
+
+.Selected .Selected_box ul li .Selected_p {
+  font-size: 0.16rem;
+  width: 3.42rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #c4c4c4;
+}
+
+.recommend {
+  width: 100%;
+  height: auto;
+  background: white;
+  margin-top: 0.22rem;
+}
+
+.recommend .p {
+  width: 100%;
+  height: 0.64rem;
+  line-height: 0.64rem;
+  margin: 0 auto;
+  font-size: 0.2rem;
+  border-bottom: 1px solid #f2f2f2;
+  background: white;
+}
+
+.recommend .p span {
+  float: left;
+  margin-left: 2.1rem;
+}
+
+.recommend .p img {
+  width: 0.15rem;
+  height: 0.15rem;
+  margin-left: 0.09rem;
+  float: left;
+  margin-top: 0.24rem;
+}
+
+.recommend ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.recommend ul li {
+  width: 50%;
+}
+
+.recommend ul li .recommend_clack {
+  width: 2.4rem;
+  height: 3.66rem;
+}
+
+.recommend ul li .recommend_img {
+  width: 2.4rem;
+  height: 2.6rem;
+}
+
+.recommend ul li .recommend_img img {
+  width: 2.4rem;
+  height: 2.6rem;
+}
+
+.recommend ul li p {
+  font-size: 0.2rem;
+}
+
+.recommend ul li .p1 {
+  font-size: 0.16rem;
+  color: red;
+  margin-top: 0.15rem;
+}
+
+.box {
+  width: 100%;
+  height: auto;
+  font-size: 0.24rem;
+}
+
+.box .top {
+  width: 100%;
+  height: 0.84rem;
+  line-height: 0.84rem;
+  border-bottom: 1px solid #e9e9e9;
+}
+
+.box .top span {
+  margin-left: 0.2rem;
+}
+
+.box .top a {
+  margin-left: 1.5rem;
+}
+
+.box .cut_list {
+  width: 100%;
+  height: 2.58rem;
+  border-bottom: 1px solid #e9e9e9;
+  position: relative;
+}
+
+.box .cut_list .cut_list_box {
+  width: 5rem;
+  height: 1.8rem;
+  margin: 0 auto;
+  margin-top: 0.35rem;
+  position: absolute;
+  margin-left: 0.15rem;
+}
+
+.box .cut_list .cut_img {
+  width: 1.8rem;
+  height: 1.8rem;
+  float: left;
+}
+
+.box .cut_list .cut_img img {
+  width: 1.8rem;
+  height: 1.8rem;
+}
+
+.box .cut_list .cut_right {
+  width: 3rem;
+  height: 1.8rem;
+  float: right;
+}
+
+.box .cut_list .cut_right p {
+  font-size: 0.2rem;
+  color: #464646;
+}
+
+.box .cut_list .cut_right .p {
+  font-size: 0.16rem;
+  color: #bdbdbd;
+  margin-top: 0.16rem;
+}
+
+.box .cut_list .cut_right .cut_zhong {
+  width: 3rem;
+  height: 0.8rem;
+  margin-top: 0.2rem;
+  display: flex;
+}
+
+.box .cut_list .cut_right .cut_zhong p {
+  width: 1.4rem;
+  text-align: center;
+  border-right: 1px solid #efefef;
+}
+
+.box .cut_list .cut_right .cut_zhong span {
+  display: block;
+}
+
+.header {
+  width: 100%;
+  height: 0.77rem;
+  line-height: 0.77rem;
+}
+
+.header input {
+  width: 4rem;
+  height: 0.4rem;
+  border-radius: 1rem;
+  border: 0rem;
+  margin-left: 0.24rem;
+  outline: none;
+  background: #f5f5f5;
+  background-size: 0.32rem 0.32rem;
+  text-indent: 0.7rem;
+}
+
+.left {
+  width: 1.85rem;
+  height: 19rem;
+  font-size: 0.2rem;
+}
+
+.left li {
+  width: 100%;
+  text-align: center;
+  line-height: 0.76rem;
+  box-sizing: border-box;
+}
+
+.right {
+  width: 5.6rem;
+  height: auto;
+  font-size: 0.2rem;
+}
+
+.right ul {
+  width: 100%;
+  margin-top: 0.1rem;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.right ul li {
+  width: 1.5rem;
+  height: 2rem;
+  text-align: center;
+}
+
+.right ul li img {
+  width: 100%;
+  height: 1.4rem;
+  display: block;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+}
+
+.red {
+  color: red;
+  border-left: 0.05rem solid red;
+}
+
+.block img {
+  width: 100%;
+  height: 100%;
+}
+
+.Block {
+  margin-top: 0.3rem;
+}
+
+.box {
+  width: 100%;
+  height: auto;
+}
+
+.box .mine_me {
+  width: 100%;
+  height: 2.2rem;
+  background: #caba98;
+  position: relative;
+}
+
+.box .mine_me .mine_me_z {
+  width: 2.2rem;
+  height: 1.12rem;
+  margin-top: 0.56rem;
+  margin-left: 0.15rem;
+  position: absolute;
+}
+
+.box .mine_me .mine_me_z .p {
+  width: 1.1rem;
+  height: 1.1rem;
+  background: white;
+  border-radius: 50%;
+  text-align: center;
+  float: left;
+}
+
+.box .mine_me .mine_me_z .p .el-icon-service {
+  font-size: 0.7rem;
+  margin-top: 0.2rem;
+}
+
+.box .mine_me .mine_me_z h4 {
+  float: right;
+  font-size: 0.2rem;
+  margin-top: 0.18rem;
+  color: white;
+}
+
+.box .mine_me .mine_me_z h4 span {
+  display: block;
+  width: 0.8rem;
+  height: 0.25rem;
+  background: #b3a078;
+  color: white;
+  line-height: 0.25rem;
+  font-size: 0.12rem;
+  margin-top: 0.07rem;
+  padding-left: 0.06rem;
+  border-radius: 0.06rem;
+}
+
+.box .mine_nice {
+  width: 100%;
+  height: 0.58rem;
+  padding-left: 0.18rem;
+  font-size: 0.12rem;
+  line-height: 0.58rem;
+  color: #d00000;
+  background: white;
+}
+
+.box .mine_my {
+  width: 100%;
+  height: 0.7rem;
+  border-bottom: 1px solid #e9e9e9;
+  background: white;
+  margin-top: 0.12rem;
+  padding-left: 0.22rem;
+  font-size: 0.12rem;
+  line-height: 0.7rem;
+}
+
+.box .mine_my .el-icon-document {
+  font-size: 0.3rem;
+  color: #fbe4c0;
+  margin-top: 0.1rem;
+}
+
+.box .mine_my span {
+  margin-left: 3.84rem;
+}
+
+.box .mine_si {
+  width: 100%;
+  height: 0.99rem;
+  background: white;
+}
+
+.box .mine_si ul {
+  display: flex;
+  list-style: none;
+}
+
+.box .mine_si ul li {
+  width: 25%;
+  text-align: center;
+}
+
+.box .mine_si ul li i {
+  font-size: 0.4rem;
+  margin-top: 0.15rem;
+  color: #a3a3a3;
+}
+
+.box .mine_si ul li span {
+  display: block;
+  font-size: 0.18rem;
+  color: #9f9f9f;
+}
+
+.box .mine_wu {
+  width: 100%;
+  height: 1.92rem;
+  background: white;
+  margin-top: 0.15rem;
+}
+
+.box .mine_wu ul {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.box .mine_wu ul li {
+  width: 33%;
+  margin-top: 0.2rem;
+}
+
+.box .mine_wu ul li .van-icon {
+  font-size: 0.35rem;
+}
+
+.box .mine_wu ul li span {
+  display: block;
+  font-size: 0.12rem;
+}
+
+.app {
+  width: 100%;
+  height: auto;
+}
+
+.app .login_box {
+  width: 4.6rem;
+  height: 7.3rem;
+  border: 2px solid #f8f8f8;
+  margin: 0 auto;
+  margin-top: 0.25rem;
+}
+
+.app .login_box .login_box_b {
+  width: 3.7rem;
+  height: 5.1rem;
+  margin: 0 auto;
+  margin-top: 0.48rem;
+}
+
+.app .login_box .login_box_b h1 {
+  width: 100%;
+  height: 0.66rem;
+  font-size: 0.3rem;
+  color: #666666;
+  font-weight: normal;
+}
+
+.app .login_box .login_box_b p {
+  width: 100%;
+  height: 0.65rem;
+  font-size: 0.2rem;
+  color: #afafaf;
+}
+
+.app .login_box .login_box_b .login_input {
+  width: 100%;
+  height: 0.7rem;
+  background: #f5f5f5;
+  border-radius: 0.04rem;
+  margin-top: 0.22rem;
+}
+
+.app .login_box .login_box_b .login_input input {
+  width: 2.78rem;
+  height: 0.68rem;
+  border: none;
+  outline: none;
+  background: #f5f5f5;
+  font-size: 0.2rem;
+  color: #b9b9b9;
+  padding-left: 0.22rem;
+}
+
+.app .login_box .login_box_b .login_input span {
+  width: 0.7rem;
+  height: 0.7rem;
+  font-size: 0.38rem;
+  text-align: center;
+}
+
+.app .login_box .login_box_b .login_input span .van-icon {
+  margin-left: 0.1rem;
+  color: #dbdbdb;
+}
+
+.app .login_box .login_box_b .login_button {
+  width: 2.85rem;
+  height: 0.55rem;
+  background: #779ef8;
+  text-align: center;
+  line-height: 0.55rem;
+  font-size: 0.2rem;
+  color: white;
+  border-radius: 0.04rem;
+  margin-left: 0.5rem;
+  margin-top: 0.55rem;
+}
+
+.app .login_box .login_box_b .login_mi {
+  width: 100%;
+  height: 0.9rem;
+  text-align: center;
+  line-height: 0.9rem;
+  font-size: 0.12rem;
+  color: #b5b5b5;
+}
+
+.app .login_box .login_box_b .login_zhu {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  font-size: 0.2rem;
+  color: #549ff9;
+}
+
+body, html {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.x {
+  width: 100%;
+  height: auto;
+  background: #f5f5f5;
+}
+
+.x .bargainlist_banner {
+  width: 100%;
+  height: 5rem;
+}
+
+.x .bargainlist_banner img {
+  width: 100%;
+  height: 5rem;
+}
+
+.x .bargainlist_title {
+  width: 100%;
+  height: 0.82rem;
+  background: white;
+  padding-left: 0.24rem;
+  line-height: 0.82rem;
+  font-size: 0.22rem;
+}
+
+.x .bargain_title2 {
+  width: 100%;
+  height: 0.52rem;
+  background: white;
+  padding-left: 0.24rem;
+  font-size: 0.18rem;
+  color: #b2b2b2;
+}
+
+.x .bargain_min {
+  width: 100%;
+  height: 0.43rem;
+  display: flex;
+  padding-left: 0.22rem;
+  font-size: 0.2rem;
+  line-height: 0.43rem;
+  background: white;
+  color: red;
+}
+
+.x .bargain_min .span {
+  font-size: 0.28rem;
+}
+
+.x .bargain_min .bargain_max {
+  width: 3.55rem;
+  height: 0.43rem;
+  line-height: 0.4rem;
+  margin-left: 0.15rem;
+  color: #bdbdbd;
+}
+
+.x .bargain_min .bargain_max span {
+  float: left;
+  font-size: 0.16rem;
+}
+
+.x .bargain_min .bargain_max a {
+  float: right;
+  font-size: 0.2rem;
+}
+
+.x .bargain_product {
+  width: 100%;
+  height: 3.4rem;
+  background: seagreen;
+  margin-top: 0.15rem;
+  list-style: none;
+}
+
+.x .bargain_product ul {
+  width: 100%;
+  height: 0.64rem;
+  background: gold;
+  list-style: none;
+  display: flex;
+  line-height: 0.64rem;
+  font-size: 0.24rem;
+  color: #393939;
+}
+
+.x .bargain_product ul li {
+  flex: 1;
+  color: white;
+  line-height: 0.64rem;
+  text-align: center;
+}
+
+.x .bargain_product ul li.router-link-active {
+  background: seagreen;
+}
+
+.x .bargain_promise {
+  width: 7.5rem;
+  height: auto;
+  background: white;
+}
+
+.x .bargain_promise .v {
+  width: 100%;
+  height: auto;
+}
